@@ -135,11 +135,14 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a50-common/proprietary/vendor/lib64/libExynosOMX_Core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libExynosOMX_Core.so \
     vendor/samsung/a50-common/proprietary/vendor/lib64/libExynosOMX_Resourcemanager.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libExynosOMX_Resourcemanager.so \
     vendor/samsung/a50-common/proprietary/vendor/lib64/libSEF.quram.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSEF.quram.so \
+    vendor/samsung/a50-common/proprietary/vendor/lib64/libSemDataProps.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSemDataProps.so \
+    vendor/samsung/a50-common/proprietary/vendor/lib64/libSemTelephonyProps.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSemTelephonyProps.so \
     vendor/samsung/a50-common/proprietary/vendor/lib64/lib_SoundBooster_ver1000.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_SoundBooster_ver1000.so \
     vendor/samsung/a50-common/proprietary/vendor/lib64/libbauthserver.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbauthserver.so \
     vendor/samsung/a50-common/proprietary/vendor/lib64/libbauthtzcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbauthtzcommon.so \
     vendor/samsung/a50-common/proprietary/vendor/lib64/libcsc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcsc.so \
     vendor/samsung/a50-common/proprietary/vendor/lib64/libegis_fp_normal_sensor_test.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libegis_fp_normal_sensor_test.so \
+    vendor/samsung/a50-common/proprietary/vendor/lib64/libengmode_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libengmode_client.so \
     vendor/samsung/a50-common/proprietary/vendor/lib64/libepicoperator.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libepicoperator.so \
     vendor/samsung/a50-common/proprietary/vendor/lib64/libfloatingfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfloatingfeature.so \
     vendor/samsung/a50-common/proprietary/vendor/lib64/libgf_in_system_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_in_system_lib.so \
@@ -147,8 +150,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a50-common/proprietary/vendor/lib64/libhwjpeg.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwjpeg.so \
     vendor/samsung/a50-common/proprietary/vendor/lib64/libiwt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libiwt.so \
     vendor/samsung/a50-common/proprietary/vendor/lib64/libqfp_sensortest.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqfp_sensortest.so \
+    vendor/samsung/a50-common/proprietary/vendor/lib64/libril_sem.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril_sem.so \
+    vendor/samsung/a50-common/proprietary/vendor/lib64/librilutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librilutils.so \
+    vendor/samsung/a50-common/proprietary/vendor/lib64/libsec-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsec-ril.so \
     vendor/samsung/a50-common/proprietary/vendor/lib64/libsecaudioinfo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsecaudioinfo.so \
     vendor/samsung/a50-common/proprietary/vendor/lib64/libsecnativefeature.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsecnativefeature.so \
+    vendor/samsung/a50-common/proprietary/vendor/lib64/libsemnativecarrierfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsemnativecarrierfeature.so \
     vendor/samsung/a50-common/proprietary/vendor/lib64/libsensorlistener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorlistener.so \
     vendor/samsung/a50-common/proprietary/vendor/lib64/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefrighthw.so \
     vendor/samsung/a50-common/proprietary/vendor/lib64/libsynaFpSensorTestNwd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsynaFpSensorTestNwd.so \
@@ -156,6 +163,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a50-common/proprietary/vendor/lib64/libuniapi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libuniapi.so \
     vendor/samsung/a50-common/proprietary/vendor/lib64/libuniplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libuniplugin.so \
     vendor/samsung/a50-common/proprietary/vendor/lib64/libuuid.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libuuid.so \
+    vendor/samsung/a50-common/proprietary/vendor/lib64/libvkmanager_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvkmanager_vendor.so \
     vendor/samsung/a50-common/proprietary/vendor/lib64/omx/libOMX.Exynos.AVC.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/omx/libOMX.Exynos.AVC.Decoder.so \
     vendor/samsung/a50-common/proprietary/vendor/lib64/omx/libOMX.Exynos.AVC.Encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/omx/libOMX.Exynos.AVC.Encoder.so \
     vendor/samsung/a50-common/proprietary/vendor/lib64/omx/libOMX.Exynos.HEVC.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/omx/libOMX.Exynos.HEVC.Decoder.so \
@@ -170,6 +178,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a50-common/proprietary/vendor/lib64/sensors.grip.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.grip.so \
     vendor/samsung/a50-common/proprietary/vendor/lib64/soundfx/libaudioeffectoffload.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libaudioeffectoffload.so \
     vendor/samsung/a50-common/proprietary/vendor/lib64/soundfx/libsamsungSoundbooster_plus.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libsamsungSoundbooster_plus.so \
+    vendor/samsung/a50-common/proprietary/vendor/lib64/vendor.samsung.hardware.radio.bridge@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.radio.bridge@2.0.so \
+    vendor/samsung/a50-common/proprietary/vendor/lib64/vendor.samsung.hardware.radio.bridge@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.radio.bridge@2.1.so \
+    vendor/samsung/a50-common/proprietary/vendor/lib64/vendor.samsung.hardware.radio.channel@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.radio.channel@2.0.so \
+    vendor/samsung/a50-common/proprietary/vendor/lib64/vendor.samsung.hardware.radio@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.radio@2.0.so \
+    vendor/samsung/a50-common/proprietary/vendor/lib64/vendor.samsung.hardware.radio@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.radio@2.1.so \
+    vendor/samsung/a50-common/proprietary/vendor/lib64/vendor.samsung.hardware.radio@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.radio@2.2.so \
     vendor/samsung/a50-common/proprietary/vendor/tee/00000000-0000-0000-0000-000000010081:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-000000010081 \
     vendor/samsung/a50-common/proprietary/vendor/tee/00000000-0000-0000-0000-000000020081:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-000000020081 \
     vendor/samsung/a50-common/proprietary/vendor/tee/00000000-0000-0000-0000-000046495645:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-000046495645 \

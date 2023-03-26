@@ -6,30 +6,16 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/samsung/a505f
 
 PRODUCT_COPY_FILES += \
-    vendor/samsung/a505f/proprietary/vendor/bin/cbd:$(TARGET_COPY_OUT_VENDOR)/bin/cbd \
     vendor/samsung/a505f/proprietary/vendor/bin/hw/gps.sh:$(TARGET_COPY_OUT_VENDOR)/bin/hw/gps.sh \
     vendor/samsung/a505f/proprietary/vendor/etc/floating_feature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/floating_feature.xml \
-    vendor/samsung/a505f/proprietary/vendor/etc/init/init.baseband.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.baseband.rc \
     vendor/samsung/a505f/proprietary/vendor/etc/init/init.gps.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.gps.rc \
     vendor/samsung/a505f/proprietary/vendor/etc/wifi/mx140_bt.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_bt.hcf \
     vendor/samsung/a505f/proprietary/vendor/firmware/calliope_dram.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/calliope_dram.bin \
     vendor/samsung/a505f/proprietary/vendor/firmware/calliope_sram.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/calliope_sram.bin \
     vendor/samsung/a505f/proprietary/vendor/lib/hw/audio.primary.exynos9610.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.exynos9610.so \
-    vendor/samsung/a505f/proprietary/vendor/lib/libaudio-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudio-ril.so \
     vendor/samsung/a505f/proprietary/vendor/lib/libexynoscamera3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynoscamera3.so \
-    vendor/samsung/a505f/proprietary/vendor/lib/libmdf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmdf.so \
-    vendor/samsung/a505f/proprietary/vendor/lib/libril-samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib/libril-samsung.so \
-    vendor/samsung/a505f/proprietary/vendor/lib/libsecril-client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsecril-client.so \
-    vendor/samsung/a505f/proprietary/vendor/lib/libsecure_storage.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsecure_storage.so \
-    vendor/samsung/a505f/proprietary/vendor/lib/libsemnativecarrierfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsemnativecarrierfeature.so \
     vendor/samsung/a505f/proprietary/vendor/lib/soundfx/libswdap.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libswdap.so \
-    vendor/samsung/a505f/proprietary/vendor/lib64/libengmode_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libengmode_client.so \
     vendor/samsung/a505f/proprietary/vendor/lib64/libexynoscamera3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynoscamera3.so \
-    vendor/samsung/a505f/proprietary/vendor/lib64/libril-samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril-samsung.so \
-    vendor/samsung/a505f/proprietary/vendor/lib64/libsecril-client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsecril-client.so \
-    vendor/samsung/a505f/proprietary/vendor/lib64/libsecure_storage.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsecure_storage.so \
-    vendor/samsung/a505f/proprietary/vendor/lib64/libsemnativecarrierfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsemnativecarrierfeature.so \
-    vendor/samsung/a505f/proprietary/vendor/lib64/libvkmanager_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvkmanager_vendor.so \
     vendor/samsung/a505f/proprietary/vendor/tee/00000000-0000-0000-0000-00000000dead:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-00000000dead \
     vendor/samsung/a505f/proprietary/vendor/tee/00000000-0000-0000-0000-000000534b4d:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-000000534b4d \
     vendor/samsung/a505f/proprietary/vendor/tee/00000000-0000-0000-0000-0053545354ab:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-0053545354ab \
