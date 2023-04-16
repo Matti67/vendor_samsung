@@ -6,6 +6,8 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/samsung/a505f
 
 PRODUCT_COPY_FILES += \
+    vendor/samsung/a505f/proprietary/system/system/apex/com.android.art.release/lib/libart.so:$(TARGET_COPY_OUT_SYSTEM)/system/apex/com.android.art.release/lib/libart.so \
+    vendor/samsung/a505f/proprietary/system/system/apex/com.android.art.release/lib64/libart.so:$(TARGET_COPY_OUT_SYSTEM)/system/apex/com.android.art.release/lib64/libart.so \
     vendor/samsung/a505f/proprietary/vendor/bin/hw/gps.sh:$(TARGET_COPY_OUT_VENDOR)/bin/hw/gps.sh \
     vendor/samsung/a505f/proprietary/vendor/etc/floating_feature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/floating_feature.xml \
     vendor/samsung/a505f/proprietary/vendor/etc/init/init.gps.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.gps.rc \
