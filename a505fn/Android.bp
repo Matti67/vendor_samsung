@@ -70,7 +70,7 @@ cc_prebuilt_library_shared {
 		},
 	},
 	compile_multilib: "64",
-	check_elf_files: false,
+	check_elf_files: false,/home/vendor_samsung/a505f
 	prefer: true,
 	soc_specific: true,
 }
